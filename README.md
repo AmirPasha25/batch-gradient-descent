@@ -1,6 +1,6 @@
 # Batch Gradient Descent — Simple & Clear Implementation
 
-![Parabola Shape](Results/Parabola%20Shape%201.png)
+![Parabola Shape](Parabola%20Shape%201.png)
 
 ## 📌 Overview
 This project is a simple, beginner-friendly implementation of **Batch Gradient Descent** using just Python and NumPy.
