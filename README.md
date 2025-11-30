@@ -1,4 +1,4 @@
-# Batch Gradient Descent — Simple & Clear Implementation
+# Batch Gradient Descent
 
 ![Parabola Shape](3D%20Convex%20Bowl.png)
 ![Parabola Shape](Parabola%20Shape%201.png)
@@ -20,23 +20,7 @@ If you’ve ever felt gradient descent was confusing or “too math heavy”, th
 ## 🚀 What is Batch Gradient Descent?
 Batch Gradient Descent updates model parameters by looking at **all training samples at once**.  
 It is the most stable version of gradient descent because it uses the complete dataset to compute the direction of movement.
-
-### Update Formulas
-
-\[
-m = m - \alpha \cdot \frac{1}{N} \sum_{i=1}^{N} \frac{\partial J}{\partial m}
-\]
-
-\[
-b = b - \alpha \cdot \frac{1}{N} \sum_{i=1}^{N} \frac{\partial J}{\partial b}
-\]
-
-Where:
-- \( \alpha \) = learning rate  
-- \( N \) = number of samples  
-
-Because the updates use *averaged* gradients, the descent path is smooth, predictable, and always heads toward the minimum when the loss is convex (like linear regression).
-
+  
 ---
 
 ## 🧠 In Simple Words  
@@ -46,5 +30,3 @@ Batch Gradient Descent looks at the *entire shape of the bowl* before taking eve
 This makes the movement smoother and less noisy, compared to SGD which takes steps based on just one data point.
 
 ---
-
-## 📂 Project Structure
