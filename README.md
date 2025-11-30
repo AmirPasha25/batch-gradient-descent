@@ -1,6 +1,6 @@
 # Batch Gradient Descent — Simple & Clear Implementation
 
-![Gradient Descent Bowl](https://raw.githubusercontent.com/your-username/your-repo/main/assets/gradient_bowl.png)
+![Gradient Descent Bowl](Results/Parabola Shape 1.png)
 
 ## 📌 Overview
 This project demonstrates **Batch Gradient Descent** from scratch using Python and NumPy.  
