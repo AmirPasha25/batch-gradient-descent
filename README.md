@@ -1,5 +1,6 @@
 # Batch Gradient Descent — Simple & Clear Implementation
 
+![Parabola Shape](3D%20Convex%20Bowl.png)
 ![Parabola Shape](Parabola%20Shape%201.png)
 
 ## 📌 Overview
