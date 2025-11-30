@@ -1,24 +1,26 @@
 # Batch Gradient Descent — Simple & Clear Implementation
 
-![Gradient Descent Bowl](Results/Parabola Shape 1.png)
+![Parabola Shape](Results/Parabola%20Shape%201.png)
 
 ## 📌 Overview
-This project demonstrates **Batch Gradient Descent** from scratch using Python and NumPy.  
-The goal is to show **how the algorithm updates parameters using the average gradient** across the full dataset.
+This project is a simple, beginner-friendly implementation of **Batch Gradient Descent** using just Python and NumPy.
 
-It includes:
-- A simple linear regression example  
-- Batch gradient update formula  
-- Visualization of the convex loss surface  
-- Parameter convergence tracking  
+The goal is to clearly show *how gradient descent actually works under the hood*:
+
+- How a model learns using the **average gradient** of the full dataset  
+- How parameters move step-by-step toward the minimum  
+- What the loss surface looks like (a smooth convex “bowl”)  
+- How the values of `m` and `b` gradually converge
+
+If you’ve ever felt gradient descent was confusing or “too math heavy”, this project breaks it down in the simplest way possible.
 
 ---
 
 ## 🚀 What is Batch Gradient Descent?
-Batch Gradient Descent computes the gradient of the loss **using the entire dataset** at every step.
+Batch Gradient Descent updates model parameters by looking at **all training samples at once**.  
+It is the most stable version of gradient descent because it uses the complete dataset to compute the direction of movement.
 
-### Formula
-For parameters \( m \) and \( b \):
+### Update Formulas
 
 \[
 m = m - \alpha \cdot \frac{1}{N} \sum_{i=1}^{N} \frac{\partial J}{\partial m}
@@ -32,7 +34,15 @@ Where:
 - \( \alpha \) = learning rate  
 - \( N \) = number of samples  
 
-This produces a **smooth, stable descent** toward the global minimum when the function is convex (like linear regression).
+Because the updates use *averaged* gradients, the descent path is smooth, predictable, and always heads toward the minimum when the loss is convex (like linear regression).
+
+---
+
+## 🧠 In Simple Words  
+Think of the loss function like a **bowl**.
+
+Batch Gradient Descent looks at the *entire shape of the bowl* before taking every step.  
+This makes the movement smoother and less noisy, compared to SGD which takes steps based on just one data point.
 
 ---
 
