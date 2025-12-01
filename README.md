@@ -13,7 +13,7 @@ The goal is to clearly show *how gradient descent actually works under the hood*
 - What the loss surface looks like (a smooth convex “bowl”)  
 - How the values of `m` and `b` gradually converge
 
-If you’ve ever felt gradient descent was confusing or “too math heavy”, this project breaks it down in the simplest way possible.
+If you have ever felt gradient descent was confusing or “too math heavy”, this project breaks it down in the simplest way possible.
 
 ---
 
