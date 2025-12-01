@@ -19,7 +19,7 @@ If you’ve ever felt gradient descent was confusing or “too math heavy”, th
 
 ## 🚀 What is Batch Gradient Descent?
 Batch Gradient Descent updates model parameters by looking at **all training samples at once**.  
-It is the most stable version of gradient descent because it uses the complete dataset to compute the direction of movement.
+It is the most stable version of gradient descent because it uses the complete dataset to compute direction of  movement.
   
 ---
 
